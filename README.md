@@ -65,7 +65,7 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 ### Formatting
 
-* Use hard tabs (4 spaces) for indentation
+* Use soft tabs (4 spaces) for indentation
 * Use dashes over camelCasing in class names. Never use underscores.
 * Do not use ID selectors
 * When using multiple selectors in a rule declaration, give each selector its own line.
