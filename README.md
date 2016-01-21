@@ -176,7 +176,7 @@ We recommend creating JavaScript-specific classes to bind to, prefixed with `.js
 
 4. Nested selectors
 
-    Nested selectors, _if necessary_, go last, and nothing goes after them. Apply the same guidelines as above to your nested selectors. Nesting selectors beyond three levels should be avoided as it produces over-specific code. 
+    Nested selectors, _if necessary_, go last, and nothing goes after them. Apply the same guidelines as above to your nested selectors. Nesting selectors beyond three levels should be avoided as it produces over-specific code.
 
     ```scss
     .btn {
@@ -275,39 +275,39 @@ In the interest of readability and continuity, the following property order shou
 
 ```
 .selector {
-	// Extends
-	@extend %transition-opacity;
+    // Extends
+    @extend %transition-opacity;
 
-	// Positioning
-  	position: absolute;
-  	z-index: 10;
-  	top: 0;
-  	right: 0;
+    // Positioning
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
 
-  	// Display & Box Model
-  	width: 100px;
-  	height: 100px;
-  	margin: 10px;
-   	padding: 10px;
-  	display: inline-block;
-  	overflow: hidden;
-  	box-sizing: border-box;
-   	border: 10px solid $white;
+    // Display & Box Model
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 10px solid $white;
 
-	// Color
-  	background: $black;
-  	color: $white
-  
-  	// Typography
-  	font-family: sans-serif;
-  	font-size: 16px;
-  	line-height: 1.4;
-  	text-align: right;
+    // Color
+    background: $black;
+    color: $white
 
-	 // Misc
-	 cursor: pointer;
-	 
-	 // Mixins
-	 @include hide-text;
+    // Typography
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: right;
+
+     // Misc
+     cursor: pointer;
+
+     // Mixins
+     @include hide-text;
 }
 ```
